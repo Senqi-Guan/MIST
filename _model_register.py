@@ -1,12 +1,9 @@
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
-from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import ExtraTreesClassifier
 from xgboost import XGBClassifier
 from lightgbm import LGBMClassifier
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.ensemble import HistGradientBoostingClassifier
-from imblearn.ensemble import BalancedRandomForestClassifier
 from sklearn.ensemble import StackingClassifier
 
 _MODEL_POOL = {
